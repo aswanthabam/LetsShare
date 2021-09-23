@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/bottomHome"
+		android:icon="@drawable/wifi_transparent"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/bottomConnect"
+		android:icon="@drawable/connected_transparent"
+        android:title="CONNECT"/>
+	
+</menu>

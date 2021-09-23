@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/wifi_success_1" android:duration="200" />
+    <item android:drawable="@drawable/wifi_success_2" android:duration="200" />
+    <item android:drawable="@drawable/wifi_success_3" android:duration="200" />
+    <item android:drawable="@drawable/wifi_success_4" android:duration="200" />
+    <item android:drawable="@drawable/wifi_success_5" android:duration="200" />
+    <item android:drawable="@drawable/wifi_success" android:duration="200" />
+    
+</animation-list>

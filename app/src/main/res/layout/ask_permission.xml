@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="20dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/dialogMessageHeading"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Please Allow Location Permission"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:id="@+id/dialogMessageContent"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Lets Share need location permission to continue"
+		android:typeface="monospace"
+		android:layout_marginTop="10dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right">
+
+		<Button
+			android:id="@+id/dialogMessageButton1"
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="Exit"/>
+
+		<Button
+			android:id="@+id/dialogMessageButton2"
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="Continue"
+			android:layout_marginLeft="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

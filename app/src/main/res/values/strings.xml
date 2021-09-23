@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lets Share</string>
+    <string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
+	<string name="need_permission">Lets share need <b><u>Storage</u></b> and <b><u>Location</u></b> permission to continue</string>
+</resources>
